@@ -1,0 +1,155 @@
+/*Main elements*/
+body {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  width: 100%;
+  color: white;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/9a/2a/a3/9a2aa3ccba5c3bce83e2e3f0a607c147.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom; 
+  background-color: black;
+}
+
+h1 {
+  padding-top: 2px;
+  font-size: 17px;
+  float: right;
+}
+
+h4 {
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+div {
+  margin: auto;
+}
+
+button {
+    background-color: black;
+    border: 2px solid orange;
+    color: orange;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;       /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #0F0F0F; 
+}
+
+/*Classes and Id's*/
+.content {
+    margin: 0 auto;
+    padding: 0;
+    display:inline-block;
+}
+
+.logo {
+    height: 45px;
+    float: left;
+}
+
+.text-box {
+  width: 80%;
+  background-color: black;
+  border: 10px solid white;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+#character {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+#quote {
+   padding: 30px 7px 0 7px;
+   font-size: 20px;
+} 
+
+#author {
+   padding: 20px 0 20px 0;
+   font-size: 15px;
+}
+
+.quotes {
+    text-align: center;
+    margin: 0;
+}
+
+.social {
+  height: 200px;
+  width: 700px;
+  padding: 50px;
+}
+
+.icon {
+    padding: 8px;
+    width: 70px;
+    height:70px;
+}
+
+/* Navigation bar */
+nav {
+    margin: 0 0 50px 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.95;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float:left;
+    background-color: black;
+    color: orange;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
