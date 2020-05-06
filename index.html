@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/heart.png">
     <title>Undertale Quotes</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -11,11 +12,10 @@
 <body>
     <!-- The nav bar with the links to the main website and buy the game -->
     <nav>
-      <div class = "content">
-        <img class="logo" src="https://lh3.googleusercontent.com/-xix1vSrG_v8/V6lFPbnQZzI/AAAAAAAAFLo/cJgi71moKfEZ032PhjnxQ329_X25aQwaw/w320-h80/splash.png">
-        <h1>QUOTES</h1>
+      <div class="content">
+        <h1>UNDERTALE QUOTES</h1>
       </div>
-      <div  class="dropdown">
+      <div class="dropdown">
         <button onclick="toggleMenu()" class="dropbtn">MENU</button>
         <div id="myDropdown" class="dropdown-content">
             <a href="http://store.steampowered.com/app/391540/" target="_blank">Buy the game</a>
@@ -25,17 +25,17 @@
     </nav>
     <!--The image, text box, the button that generate the quote and share the quote on social sites-->
     <div class="text-box">
-        <img id="character" src="img/Annoying_Dog.gif">
-        <h2  id="quote" class="quotes">"Fill with determination by reading undertale quotes"</h2>
-   	    <h3  id="author" class="quotes">- Luis Alvarez</h3>
+        <img id="character" src="img/Annoying_Dog.gif" alt="annoying dog">
+        <h2 id="quote" class="quotes">"Fill with determination by reading undertale quotes"</h2>
+   	    <h3 id="author" class="quotes">- Luis Alvarez</h3>
     </div>
     <button onclick="generateQuote()">Generate Quote</button>
     <div class="social">
         <p>Share this quote<br>and stay determined:</p>
-        <a id="twitter-share-button" onclick="share()"  href =  "" target=_blank> <img class="icon" src="img/pixeltwitter.png"></a>
+        <a id="twitter-share-button" onclick="share()"  href="" target=_blank> <img class="icon" src="img/pixeltwitter.png" alt="twitter"></a>
     </div>
     <!--Copyright-->
-    <h4>&copy;Undertale content and materials are trademarks and copyrights of toby fox. Only for entertainment purposes</h4>
+    <h4>&copy; Undertale content and materials are trademarks and copyrights of toby fox. Only for entertainment purposes</h4>
 
     <script src="js/index.js"></script>
 </body>

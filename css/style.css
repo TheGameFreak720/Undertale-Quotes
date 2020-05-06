@@ -7,7 +7,7 @@ body {
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom; 
+  background-position: bottom;
   background-color: black;
 }
 
@@ -18,7 +18,9 @@ h1 {
 }
 
 h4 {
+  margin: 0 auto;
   text-align: center;
+  width: 80%;
 }
 
 a {
@@ -44,19 +46,12 @@ button {
 }
 
 button:hover {
-    background-color: #0F0F0F; 
+    background-color: #0F0F0F;
 }
 
 /*Classes and Id's*/
 .content {
-    margin: 0 auto;
-    padding: 0;
-    display:inline-block;
-}
-
-.logo {
-    height: 45px;
-    float: left;
+    margin: 0 0.5rem;
 }
 
 .text-box {
@@ -78,7 +73,7 @@ button:hover {
 #quote {
    padding: 30px 7px 0 7px;
    font-size: 20px;
-} 
+}
 
 #author {
    padding: 20px 0 20px 0;
@@ -92,8 +87,8 @@ button:hover {
 
 .social {
   height: 200px;
-  width: 700px;
   padding: 50px;
+  width: 80%;
 }
 
 .icon {
